@@ -90,6 +90,8 @@ from django.contrib import admin
 from .models import Departments
 admin.site.register(Departments)
 ```
+![alt text](https://github.com/prabhakar2020/django_restapi/blob/master/images/admin_console.png)
+
  > Create Serializers on departments/serializers.py
  
  ```python
@@ -131,5 +133,8 @@ urlpatterns = [
  ```python
  python manage.py runserver
  ```
+ ![alt text](https://github.com/prabhakar2020/django_restapi/blob/master/images/api_root.png)
+ ![alt text](https://github.com/prabhakar2020/django_restapi/blob/master/images/departments_list.png)
+ ![alt text](https://github.com/prabhakar2020/django_restapi/blob/master/images/departments_put.png)
 
 `Note: Above django project prepared and tested on django==2.2.3 and djangorestframework==3.10.2`
